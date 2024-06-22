@@ -12,16 +12,19 @@ print on the screen the sum of those 2 numbers
 
 // Exercise 2: Check if a Number is Even or Odd
 
-declare variable called number
-if remainder of number/2 is 0, number is even
-else number is odd
+Pseudocode:
+ declare variable called number
+ if remainder of number%2 is 0, number is even
+      else number is odd
 
-code:
+
+Possible code:
 int number = 0;
 
-if (number/2 == 0)
-   print ("Even Number", number)
-else print ("Odd Number", number)
+if (number%2 == 0)
+   print ("Even Number", number);
+else 
+   print ("Odd Number", number);
 
 
 
@@ -34,5 +37,20 @@ c) Find the smallest (minimum) and largest (maximum) of the five entered numbers
 d) Write out the results found from steps b and c with a message describing what they are
 
 (Your pseudocode here)
+
+int largest = 0
+int counter = 0
+int input number = user input
+
+for counter = 1 to 5
+{
+  get input number 
+  if largest >= input number
+   no action
+  else if largest < input number
+   largest = input number 
+}
+
+print largest;
 
 -- END --
